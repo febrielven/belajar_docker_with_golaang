@@ -1,5 +1,5 @@
 # lightweight container for go
-FROM golang:1.17.0-alpine3.13
+FROM golang:1.16
 
 # update container's packages and install git
 RUN apk update && apk add --no-cache git
