@@ -1,0 +1,6 @@
+# lightweight container for go
+FROM golang:1.17.0-alpine3.13
+
+# update container's packages and install git
+
+
